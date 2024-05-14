@@ -23,9 +23,3 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
-
-- script: |
-    git remote add azure https://meezulawot.visualstudio.com/TestProject/_git/TestProjectAzureDevOps.git
-    git pull origin main
-    git push azure main
-  displayName: 'Sync changes with Azure repository'
